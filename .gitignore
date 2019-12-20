@@ -1,9 +1,10 @@
+#忽略.class文件
 *.class
-
-#package
+#忽略war文件
 *.war
 *.ear
 *.orig
+//忽略target目录下的所有文件
 target/
 .settings/
 .project
